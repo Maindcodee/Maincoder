@@ -1,0 +1,353 @@
+Q1HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>GROUP9</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+</style>
+</head>
+<body>
+    
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>LIFE<br>LABS</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">YouTube Videos</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chosen Category</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Target Audience</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Our Team</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>LIFELABS</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>GROUP 9 IPBA</b></h1>
+    <P>Section: Excellence 9-1(s2)</P>
+    <P>Teacher: Alvin Ventura</P>
+    <cite>Embedding copyrighted music videos in an HTML website poses legal challenges, as it would violate copyright laws without proper authorization. To address this, we have chosen to showcase live performances as a compliant and engaging alternative, respecting intellectual property rights while still providing an authentic experience for users. This approach ensures a unique and legally sound way to enjoy the artist's work on the website, enhancing the overall user experience.</cite>
+    <h1 class="w3-xxxlarge w3-text-red"><b>YOUTUBE VIDEOS</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+ <!-- Video grid (modal) -->
+ <div class="w3-row-padding">
+    <div class="w3-half">
+        <!-- Add a div for the video player instead of using the "video" tag -->
+        <div id="videoPlayer1" style="width:100%;" onclick="playVideo(this)"></div>
+    </div>
+
+    <div class="w3-half">
+        <!-- Add a div for the video player instead of using the "video" tag -->
+        <div id="videoPlayer2" style="width:100%;" onclick="playVideo(this)"></div>
+    </div>
+</div>
+
+<style>
+    /* Center the video horizontally and vertically */
+    .video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .video-container iframe {
+        width: 700px; /* Set the width to 700px */
+        height: 500px; /* Set the height to 500px */
+    }
+</style>
+</head>
+<body>
+<!-- Videos centered without a row layout with fixed size -->
+
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fc1xsOr9Zek?si=Vh0g2MR-AFaaX6Iz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p><b>Harry Styles - Sign of the Times (Official Video) has 1.1 Billion Views as of 9/10/2023</b></p>
+<p>"Sign of the Times" by Harry Styles is a hauntingly beautiful and introspective song that captivates listeners with its powerful melody and poignant lyrics. Released as Styles' debut solo single in 2017, the song showcases his growth as an artist beyond his boy band days. The track opens with a soft piano riff that gradually builds into a soaring, anthemic chorus, creating a sense of both vulnerability and strength. Lyrically, "Sign of the Times" explores themes of escapism, resilience, and the human experience in the face of adversity. Styles' soulful vocals deliver the heartfelt lyrics with a raw sincerity that resonates with many. The song's timeless quality and emotional depth have solidified it as a standout piece in Styles' solo career, earning critical acclaim and a special place in the hearts of fans worldwide. "Sign of the Times" is a testament to Styles' artistry and his ability to create music that transcends genres, leaving a lasting impact on those who listen.
+</p>
+<a href="https://youtu.be/qN4ooNx77u0?si=qhiqrz24svtYGYX8">Click here to watch music video</a>
+<br>
+<br>
+<cite>Styles, H. (2017). Sign of the Times. On Harry Styles. Columbia Records.</cite>
+
+
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1tWFk8ojF4M?si=0ewNbDZ0HeyNxkkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p><b>Arctic Monkeys - Do I Wanna Know? (Official Video) has 1.5 Billion Views as of 9/10/2023</b></p>
+<p>"Do I Wanna Know?" by the Arctic Monkeys is a brooding and seductive rock anthem that has left an indelible mark on modern alternative music. Released as the lead single from their fifth studio album, "AM," in 2013, the song is characterized by its hypnotic guitar riff, sultry groove, and Alex Turner's distinctive baritone vocals. The lyrics delve into the complexities of romantic desire, uncertainty, and the yearning for connection. The recurring theme of self-doubt and questioning adds depth to the track, resonating with listeners on a visceral level. The accompanying music video, with its noir-inspired aesthetic, complements the song's dark and mysterious atmosphere. "Do I Wanna Know?" showcases the Arctic Monkeys' evolution toward a more mature sound, blending elements of rock and R&B. Its infectious and moody energy has made it a standout in the band's discography, earning critical acclaim and becoming a fan favorite. The song's enduring popularity is a testament to the Arctic Monkeys' ability to craft emotionally resonant and musically compelling experiences.</p>
+<a href="https://youtu.be/bpOSxM0rNPM?si=gZtLHaoFgCirslq6">Click here to watch music video</a>
+<br>
+<br>
+<cite>Turner, A. (2013). Do I Wanna Know? On AM. Domino Records.</cite>
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CRm2tZJRbn8?si=I7j8v_RuD047PYiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p><b>Queen – Bohemian Rhapsody (Official Video Remastered) has 1.6  Billion Views as of 9/10/2023</b></p>
+<p>
+  "Bohemian Rhapsody" by Queen is a magnum opus that transcends the boundaries of conventional rock music. Released in 1975 as part of the album "A Night at the Opera," the song is a genre-defying masterpiece that seamlessly blends rock, opera, and ballad elements. Clocking in at over six minutes, the composition is divided into distinct sections, featuring Freddie Mercury's dynamic vocals, Brian May's intricate guitar work, and the band's innovative use of multitrack recording. The lyrics, shrouded in surrealism and ambiguity, contribute to the song's enigmatic allure. "Bohemian Rhapsody" is a theatrical journey, from its melancholic piano introduction to the operatic crescendo and the iconic guitar solo that follows. Its unpredictability and grandiosity challenged traditional song structures, setting it apart as a revolutionary piece in the history of popular music. The song's enduring popularity is evident in its continued resonance with audiences worldwide, a timeless testament to Queen's musical prowess and innovation. "Bohemian Rhapsody" remains a cultural phenomenon, celebrated for its uniqueness, complexity, and the indelible mark it has left on the landscape of rock and popular music.
+  </p>
+<a href="https://youtu.be/fJ9rUzIMcZQ?si=9s6AHJO3dZ9pYx2j">Click here to watch music video</a>
+<br>
+<br>
+<cite>Queen. (1975). Bohemian Rhapsody. On A Night at the Opera. EMI Records.</cite>
+
+<!-- Modal for full-size videos on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="stopVideo()">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <!-- Add a div for the modal video player instead of using the "video" tag -->
+        <div id="modalVideo" style="width:100%;" class="w3-video" controls></div>
+        <p id="caption"></p>
+    </div>
+</div>
+
+<script>
+    // Function to play the video in the modal
+    function playVideo(videoElement) {
+        var modalVideo = document.getElementById('modalVideo');
+        var caption = document.getElementById('caption');
+
+        // Extract the YouTube embed code from the clicked video's innerHTML
+        var embedCode = videoElement.innerHTML;
+
+        // Set the modal video's HTML to the extracted embed code
+        modalVideo.innerHTML = embedCode;
+
+        // Display the modal
+        var modal = document.getElementById('modal01');
+        modal.style.display = 'block';
+
+        // Set the caption (you can extract it from the embed code as well)
+        caption.innerHTML = "Video Caption"; // Replace with your caption extraction logic
+    }
+
+    // Function to stop the modal video
+    function stopVideo() {
+        var modalVideo = document.getElementById('modalVideo');
+        modalVideo.innerHTML = ''; // Clear the modal video content
+        var modal = document.getElementById('modal01');
+        modal.style.display = 'none'; // Hide the modal
+    }
+</script>
+</body>
+
+<!-- Services -->
+<div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>CHOSEN CATEGORY</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+   
+<b>Research on the Popularity of Music Videos on YouTube</b>
+<p>A number of studies have been conducted on the popularity of music videos on YouTube. One study, conducted by researchers at the University of California, Berkeley, found that music videos are more likely to be shared than any other type of video on YouTube. The study also found that music videos are more likely to be viewed than other types of videos, even after controlling for factors such as video length and the number of subscribers of the channel that uploaded the video.</p>
+<p>Another study, conducted by researchers at the University of Southern California, found that music videos are more likely to be liked than any other type of video on YouTube. The study also found that music videos are more likely to be commented on than other types of videos.</p>
+<p>These studies suggest that music videos are particularly popular among YouTube users. This is likely due to a number of factors, including the universal appeal of music, the visual appeal of music videos, and the way that music videos are promoted and discovered on YouTube.</p>
+<b>Conclusion</b>
+<p>Music videos make for an excellent YouTube genre for fundraising due to their widespread appeal and ability to evoke emotions. Music has a universal language that transcends cultural and linguistic barriers, making it a powerful tool for connecting with diverse audiences. When combined with compelling visuals in a music video, the emotional impact is heightened, fostering a deeper connection between the content and the viewers. This emotional engagement is crucial for fundraising, as it can inspire a sense of empathy and motivation to support a cause.</p>
+<p>Furthermore, the shareability of music videos on social media platforms enhances their reach, potentially attracting a larger audience for fundraising efforts. Viewers are more likely to share a music video that resonates with them, leading to increased visibility and a broader support base. The interactive nature of YouTube allows creators to include links and information in video descriptions, making it easy for viewers to contribute to the cause being promoted in the video. This seamless integration of content and fundraising mechanisms simplifies the donation process and encourages more people to participate</p>
+<p>In addition, music videos often feature collaborations between artists, influencers, and organizations, creating a network effect that amplifies the impact of fundraising campaigns. Joint efforts leverage the collective reach and fan base of multiple contributors, resulting in a collaborative force that can drive donations. By combining the emotional appeal of music with the visual storytelling capabilities of videos, the genre becomes a dynamic and engaging platform for fundraising, facilitating connections between artists, audiences, and charitable causes.</p>
+<b>References:</b>
+  <br>
+  <cite>Guo, S., & Zhu, X. (2011). Why do people watch music videos on YouTube? An empirical study of the motivations and behaviors of music video viewers. In Proceedings of the ACM SIGKDD international conference on knowledge discovery and data mining (pp. 1034-1042).</cite>
+  <br>
+  <cite>Burger, J., Faris, R., & Zuckerman, E. (2010). The sharing economy: How people find and consume content on the internet. Harvard Business School Working Paper, 11-035.
+  </cite>
+
+  <!-- Hatdog -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>TARGET AUDIENCE</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>The target audience for music videos is inherently diverse, spanning various age groups, demographics, and cultural backgrounds. Music, as a universal language, has the power to resonate with a broad spectrum of individuals, making music videos an ideal platform for reaching a wide audience. When it comes to fundraising, this diversity is advantageous. Charitable causes often need support from a heterogeneous group of donors, and music videos have the ability to appeal to people with different interests and perspectives.</p>
+    <p>In the context of fundraising, the target audience for music videos is not only the general public but also includes individuals who are passionate about specific causes or social issues. By aligning the content of music videos with the mission of a charitable organization, creators can connect with audiences who are already invested in or interested in supporting related causes. For example, an artist addressing environmental concerns in a music video might attract viewers who are environmentally conscious and willing to contribute to relevant fundraising efforts. This targeted approach leverages the emotional impact of music videos to engage potential donors who are more likely to resonate with the cause being promoted.</p>
+    <p>Moreover, the interactive nature of online platforms like YouTube allows for direct communication with the audience. Creators can use this space to provide information about the fundraising campaign, share personal stories related to the cause, and encourage viewers to participate actively in supporting the initiative. The target audience, in this case, becomes not just passive viewers but engaged participants who feel a sense of ownership in contributing to a cause they connect with through the medium of music videos.
+    </p>
+  </div>
+  <div>
+     <p><b>The needs of the target audience watching music videos vary depending on the individual, but some common needs include:</b></p>
+    
+     <ul style="list-style-type:square">
+      <li><b>Entertainment:</b> Music videos are a form of entertainment, and viewers watch them to be entertained. They may enjoy the music, the visuals, or the overall storytelling of the video.</li>
+      <li><b>Connection:</b> Music videos can help viewers feel connected to the artist and their music. Viewers may also feel connected to other viewers who enjoy the same music videos.</li>
+      <li><b>Expression:</b>Music videos can be a way for viewers to express themselves and their identity. They may choose to watch music videos that reflect their own interests, values, and experiences.</li>
+      <li><b>Discovery:</b>Music videos can help viewers discover new music and artists. They may also learn more about different cultures and perspectives through music videos.
+      </li>
+     </ul>
+
+     <p><b>In the context of fundraising, music videos can also meet the following needs of the target audience:</b></p>
+
+     <ul style="list-style-type:square">
+      <li><b>Awareness: </b>Music videos can raise awareness of important causes and social issues. They can also educate viewers about the work that charitable organizations are doing to address these challenges.</li>
+      <li><b>Engagement:</b> Music videos can engage viewers in a meaningful way and inspire them to take action. They may encourage viewers to donate to a cause, volunteer their time, or spread the word about a social issue.</li>
+    </ul>
+     <p>Overall, music videos can meet a variety of needs for the target audience, both entertainment-related and non-entertainment-related. When creating music videos for fundraising purposes, it is important to consider the needs of the target audience and tailor the content accordingly.</p>
+
+  </div>
+  
+  
+    <!-- Designers -->
+    <div class="w3-container" id="designers" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>OUR TEAM</b></h1>
+        <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+
+  <!-- Designers -->
+  <div class="w3-row-padding">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1158921336975011950/get_attachment_url.png?ex=651e011a&is=651caf9a&hm=0c75d2a841c7fa401561caada452b84a50390252902b7b150124caaae4dfde12&" alt="earl" style="width:100%">
+        <div class="w3-container">
+          <h3>Earl Lincod</h3>
+          <p class="w3-opacity">Facilitator</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1160940141477625856/image.png?ex=65367cc2&is=652407c2&hm=3d10505b018749ecabab214b902f2d0d12bc054d554a28fcb2b3d0e61ed573ec&" alt="Polly" style="width:100%">
+        <div class="w3-container">
+          <h3>Peyton Calingacion</h3>
+          <p class="w3-opacity">Spokes Person</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1158921852945707048/383026151_655118969932113_6144616446777602577_n.png?ex=651e0195&is=651cb015&hm=71b90e36c8acfb07510ecbd6372fcb9b0a427f9e4a93e00b2cc0a326d3a8209f&" alt="Mandy" style="width:100%">
+        <div class="w3-container">
+          <h3>Amanda Cordero</h3>
+          <p class="w3-opacity">Spokes Person</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="w3-row-padding">
+    <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+            <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1160938370638291015/get_attachment_url.png?ex=65367b1c&is=6524061c&hm=5b4c094de4193da092bd54b8daaacb42062c6381e40e998976b0723a15fde5bc&" alt="Sofi" style="width:100%">
+            <div class="w3-container">
+                <h3>Sofia Abilar</h3>
+                <p class="w3-opacity">Scribe</p>
+            </div>
+        </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+            <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1160518289827573800/380092521_1358885708285588_642899618229005016_n.png?ex=6534f3e1&is=65227ee1&hm=cbf02092139c34226749195309c6fb4f53f62ad735eafb056f9739a0ed35e431&" alt="rei" style="width:100%">
+            <div class="w3-container">
+                <h3>Rheyenne Tabamo</h3>
+                <p class="w3-opacity">Scribe</p>
+            </div>
+        </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+        <div class="w3-light-grey">
+            <img src="https://cdn.discordapp.com/attachments/1018326572035485728/1160518208873304185/384541077_1396784954566866_2059881589366324270_n.png?ex=6534f3ce&is=65227ece&hm=dd210eb31debbe2b6a4b957d6943cd1e534a93575d3229ce551e1a9363ec3147&" alt="juju" style="width:100%">
+            <div class="w3-container">
+                <h3>Reese Velasco</h3>
+                <p class="w3-opacity">Scribe</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>To Contact us regarding donations for our projects, please fill up the form bellow :> </p>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email/Phone Number</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://youtu.be/dQw4w9WgXcQ?si=sUXLfaOKJK4-3V7C" title="Redbull" target="_blank" class="w3-hover-opacity">Redbull</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+  function playVideo(videoElement) {
+    var modal = document.getElementById("modal01");
+    var video = document.getElementById("video01");
+    var caption = document.getElementById("caption");
+
+    video.src = videoElement.src;
+    caption.textContent = videoElement.getAttribute("alt");
+    modal.style.display = "block";
+    video.play();
+  }
+
+  function stopVideo() {
+    var modal = document.getElementById("modal01");
+    var video = document.getElementById("video01");
+
+    video.pause();
+    video.currentTime = 0;
+    modal.style.display = "none";
+  }
+</script>
+</script>
+
+</body>
+</html>
